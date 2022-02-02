@@ -17,6 +17,7 @@ import MoreIcon from "@mui/icons-material/More";
 import AppIcon from "@mui/icons-material/Apps";
 
 const Searchpage = () => {
+  // eslint-disable-next-line no-unused-vars
   const [{ term = "tesla" }, dispatch] = useStateValue();
   // LIVE CALL API
   const {data} = useGoogleSEarch(term)
